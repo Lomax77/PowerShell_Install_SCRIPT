@@ -3,7 +3,7 @@
 # You can change out the programs and add whatever programs you wish
 # Good for Baselining multiple PC/Laptops
 # Certificates section only needed for apps that require them i.e. ATAK, ICE etc
-# Wazuh watching this repo ;)
+# Wazuh is watching this repo ;)
 
 # Ensure the script runs as an administrator
 function Ensure-Admin {
@@ -150,6 +150,7 @@ function Import-CERCertificate {
 Import-CERCertificate "C:\[PATH]\[CERTIFICATE].cer" 
 
 Write-Host "Setup complete. Restart Chrome to apply changes."
+
 
 
 
